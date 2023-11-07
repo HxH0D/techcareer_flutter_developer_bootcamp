@@ -20,17 +20,14 @@ class _SonucEkraniState extends State<SonucEkrani> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pop(context);// Geldiğimiz bir önceki sayfaya döneriz.
+              },
               child: const Text("Geri Dön"),
             ),
             ElevatedButton(
               onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const AnaSayfa(),
-                  ),
-                );
+               Navigator.of(context).popUntil((route) => route.isFirst); // tüm sayfaları kapatıp ilk ana sayfaya gideriz .
               },
               child: const Text("Ana SAyfaya Geri Dön"),
             ),

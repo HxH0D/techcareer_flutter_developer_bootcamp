@@ -1,4 +1,6 @@
 import 'package:calisma_yapisi/anaSayfa.dart';
+import 'package:calisma_yapisi/bottom_navigation_ornek/bottom_sayfa.dart';
+import 'package:calisma_yapisi/kullanici_etkilesimi/kullanici_etkilesimi_sayfa.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const AnaSayfa(),
+      home: const KullaniciEtkilesimiSayfa(),//const BottomSayfa(), //const AnaSayfa(),
     );
   }
 }
