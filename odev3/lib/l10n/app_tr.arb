@@ -1,0 +1,11 @@
+{
+  "test1": "Rüya Tatiliniz İçin Dünya Seyahat Acentesi",
+  "hotelText": "Oteller",
+  "restaurantText": "Restoran",
+  "busText": "Tren/Otobüs",
+  "airwaysText": "Havayolları",
+  "loginText": "Giriş Yap",
+  "forgotPasswordText": "Parolanızı mı Unuttunuz?",
+  "haventAccountText": "Hesabınız Yok mu?",
+  "registerNowText": "Şimdi Kaydol"
+}

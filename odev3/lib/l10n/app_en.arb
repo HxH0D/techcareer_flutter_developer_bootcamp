@@ -1,0 +1,11 @@
+{
+  "test1": "World Travel Agency for Your Dream Vacation",
+  "hotelText": "Hotels",
+  "restaurantText": "Restaurant",
+  "busText": "Train/Bus",
+  "airwaysText": "Airlines",
+  "loginText": "Log In",
+  "forgotPasswordText": "Forgot Your Password?",
+  "haventAccountText": "Don't Have an Account?",
+  "registerNowText": "Register Now"
+}
