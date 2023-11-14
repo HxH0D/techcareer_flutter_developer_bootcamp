@@ -63,8 +63,7 @@ class _HomePageState extends State<HomePage> {
                 SizedBox(
                   width: 72,
                   height: 72,
-                  child: Image.network(
-                      "http://kasimadalan.pe.hu/yemekler/resimler/$imageName"),
+                  child: Image.network("http://kasimadalan.pe.hu/yemekler/resimler/$imageName"),
                 ),
                 ElevatedButton(
                   onPressed: () {
