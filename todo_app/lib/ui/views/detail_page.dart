@@ -27,7 +27,7 @@ class _DetailPageState extends State<DetailPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Görev Ekle"),
+        title: Text("Edit Task"),
       ),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
